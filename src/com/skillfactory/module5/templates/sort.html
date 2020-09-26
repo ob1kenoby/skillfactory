@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" href="static/1.css">
+        <title>Shade</title>
+    </head>
+    <body>
+        <nav class = 'navbar'>
+            <a href = 'index.html'>Главная</a>
+            <a href = 'sort.html'>Мое веб-приложение на flask</a>
+            <a href="https://google.ru/">Контакты </a>
+        </nav>
+        <br>
+ <section class ='f1'>
+        <form action='/answer2' autocomplete =off method='POST'>
+          <fieldset class ='text'>
+                <legend>Введите строку для сортировки</legend>
+                <p><label for='string'>Строка <em> </em></label><input type='text' id='string' name='string'></p>
+          </fieldset>
+                <p class ='text'><label>Отсортированная строка </label>{{ans}}</p>
+                <p><input type='submit' value='Сортировать'></p>
+        </form>
+ </section>
+    </body>
+
+</html>
